@@ -1,0 +1,86 @@
+.buy-nft-name {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.buy-nft-attributes h6 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.buy-nft-attributes span {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.buy-nft-price {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.buy-nft-button {
+  width: 122px;
+  height: 37px;
+}
+
+.buy-nft-image-conteiner {
+  position: relative;
+  background-color: transparent;
+  width: 350px;
+}
+
+.buy-nft-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  z-index: 1;
+  border-radius: 5px;
+  /* pointer-events: none; */
+}
+
+.background-dark .buy-nft-selected-item-price h6 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.background-dark .buy-nft-selected-item-price span {
+  color: rgba(255, 255, 255, 0.79);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.background-dark .buy-nft-name {
+  color: #ffffff;
+}
+
+.background-dark .buy-nft-attributes h6 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.background-dark .buy-nft-attributes span {
+  color: #b073ff;
+}
+
+.background-dark .buy-nft-price {
+  color: #ffffff;
+}
+
+.background-dark .buy-nft-sale-price-section {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 35, 62, 0.25) 5.26%,
+    rgba(85, 47, 188, 0.25) 100%
+  );
+  border-radius: 10px;
+  width: 50%;
+}
+
+.background-dark .buy-nft-button {
+  background-color: #d72b30;
+  color: #ffffff;
+  border: none;
+}

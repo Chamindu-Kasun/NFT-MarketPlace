@@ -1,0 +1,25 @@
+.nft-for-sale-heart {
+  width: 10px;
+  height: 10px;
+  position: relative;
+}
+
+.nft-for-sale-heart:before,
+.nft-for-sale-heart:after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 10px;
+  height: 16px;
+  border-radius: 10px 10px 0 0;
+  background-color: red;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.nft-for-sale-heart {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}

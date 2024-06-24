@@ -1,0 +1,171 @@
+.weeks-favorites-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 992px) {
+  .weeks-favorites-container {
+    flex-direction: row;
+  }
+}
+
+.weeks-favorites-container > div {
+  width: 100%;
+}
+
+.weeks-favorites-purchase-section {
+  width: 75%;
+}
+
+@media only screen and (max-width: 767px) {
+  .weeks-favorites-purchase-section {
+    width: 100%;
+  }
+}
+
+.weeks-favorites-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 28px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px) {
+  .weeks-favorites-title {
+    font-size: 28px;
+  }
+}
+
+.weeks-favorites-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.weeks-favorites-purchase-button {
+  width: 122px;
+  height: 37px;
+  font-weight: 600;
+}
+
+.outer-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weeks-favorites-nft-container {
+  width: 326.62px;
+  height: 393.63px;
+  position: relative;
+}
+
+.weeks-favorite-nft-background-rectangle {
+  position: absolute;
+  width: 335.4px;
+  height: 404.27px;
+  left: 0px;
+  top: -15px;
+  border-radius: 43px;
+  transform: matrix(0.7, 0.71, -0.71, 0.7, 0, 0);
+  z-index: 1;
+}
+
+.weeks-favorites-nft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 2;
+}
+
+.weeks-favorites-nft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.weeks-favorites-nft-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.weeks-favorites-nft-tokenId {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.weeks-favorites-nft-trait {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.weeks-favorites-nft-price-avax {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.weeks-favorites-nft-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* specific to dark */
+.background-dark .weeks-favorites-title {
+  color: #ffffff;
+}
+
+.background-dark .weeks-favorites-description {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.background-dark .weeks-favorites-purchase-button {
+  color: #ffffff;
+  background: #d72b30;
+  box-shadow: 0px 3px 10px rgba(215, 43, 48, 0.7);
+  border-radius: 6px;
+  border: 0px;
+}
+
+.background-dark .weeks-favorites-nft-name {
+  color: #ffffff;
+}
+
+.background-dark .weeks-favorites-nft-tokenId {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.background-dark .weeks-favorites-nft-trait {
+  color: #b073ff;
+}
+
+.background-dark .weeks-favorites-nft-price-avax {
+  color: #ffffff;
+}
+
+.background-dark .weeks-favorites-nft-price {
+  color: rgba(255, 255, 255, 0.79);
+}
+
+.background-dark .weeks-favorites-cart-logo {
+  border: 2px solid rgba(255, 255, 255, 0.44);
+  border-radius: 8px;
+}
+
+.background-dark .weeks-favorite-nft-background-rectangle {
+  background: rgba(255, 255, 255, 0.03);
+}

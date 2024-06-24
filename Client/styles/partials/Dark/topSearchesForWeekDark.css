@@ -1,0 +1,72 @@
+.top-searches-for-week-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px) {
+  .top-searches-for-week-title {
+    font-size: 30px;
+  }
+}
+
+.top-searched-nfs-for-week {
+  overflow: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.top-searched-nfs-for-week::-webkit-scrollbar {
+  display: none;
+}
+
+.top-searched-nft-card {
+  background: #2a2c54;
+  border-radius: 0px 0px 7px 7px;
+}
+
+.top-searched-nft-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.top-searched-nft-tokenId {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.top-searched-nft-trait {
+  color: #b073ff;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.top-searched-nft-price-avax {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.top-searched-nft-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.79);
+}
+
+/* specific to dark */
+.background-dark .top-searches-for-week-title {
+  color: #ffffff;
+}
+
+/* specific to light */
+.background-light .top-searches-for-week-title {
+  color: #000000;
+}

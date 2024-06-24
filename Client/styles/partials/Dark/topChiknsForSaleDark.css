@@ -1,0 +1,42 @@
+.top-searches-for-sale-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px) {
+  .top-searches-for-sale-title {
+    font-size: 30px;
+  }
+}
+
+.top-searches-for-sale-courosol-mobile {
+  overflow: scroll;
+}
+
+.top-searches-for-sale-image-container {
+  position: relative;
+  background-color: transparent;
+}
+
+.top-searches-for-sale-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/* specific to dark */
+.background-dark .top-searches-for-sale-title {
+  color: #ffffff;
+}
+
+/* specific to light */
+.background-light .top-searches-for-sale-title {
+  color: #000000;
+}

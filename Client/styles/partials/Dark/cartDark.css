@@ -1,0 +1,83 @@
+.background-dark .cart-section {
+  background: radial-gradient(
+    100% 197.75% at 100% 100%,
+    #080539 0%,
+    #06041f 100%
+  );
+  box-shadow: 0 0px 1px rgba(255, 255, 255, 0.8);
+  justify-self: center !important;
+  width: 450px;
+  border-radius: 5px;
+}
+.cart-section-header {
+  border-bottom: 1px solid rgba(163, 163, 163, 0.18);
+}
+
+.cart-section-header h1 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.buy-nft-cart {
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.background-dark .cart-section-items-header span {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.background-dark .cart-selected-item-name {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.background-dark .cart-selected-item-description {
+  color: #b073ff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.background-dark .cart-selected-item-wight {
+  color: rgba(234, 217, 217, 0.76);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.background-dark .cart-selected-item-price h6 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.background-dark .cart-selected-item-price span {
+  color: rgba(255, 255, 255, 0.79);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.cart-section-items {
+  border-bottom: 1px solid rgba(163, 163, 163, 0.18);
+}
+
+.background-dark .cart-selected-total-price {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.cart-section-purchase-button {
+  background: linear-gradient(90deg, #d31c2f 5.26%, #eb1229 100%);
+  border-radius: 10px;
+  width: 90%;
+  padding: 2%;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+}

@@ -1,0 +1,14 @@
+/* specific to light */
+
+.background-light .main-banner-label {
+  color: #3f64cd;
+}
+
+.background-light .main-banner-description {
+  color: #22233e;
+}
+
+.background-light .main-banner-label span {
+  color: transparent;
+  -webkit-text-stroke: 1px #3f64cd;
+}

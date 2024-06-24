@@ -1,0 +1,84 @@
+.topnavbar-input-section {
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  background-color: transparent;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .topnavbar-input-section {
+    width: 350px;
+  }
+}
+
+.topnavbar-input {
+  background-color: transparent;
+  width: 100%;
+  color: aliceblue;
+  border: none;
+}
+
+.topnavbar-input:focus {
+  outline: none;
+}
+
+.topnavbar-label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.background-dark .topnavbar-icon {
+  cursor: pointer;
+}
+
+.wallet-button-section {
+  background-color: orange;
+  border-radius: 5px;
+  box-shadow: 0 0 4px orange;
+  border: 2px solid orange;
+}
+
+.wallet-connect-button {
+  background-color: transparent;
+  border: none;
+}
+
+.topnavbar-cart-count {
+  background-color: red;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.topnavbar-cart-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+
+/* specific to dark */
+.background-dark .topnavbar-input-section {
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.background-dark .topnavbar-label {
+  color: #ffffff;
+}
+
+.background-dark .topnavbar-input {
+  color: aliceblue;
+}

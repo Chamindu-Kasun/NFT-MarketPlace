@@ -1,0 +1,132 @@
+.list-nft-sale-form {
+  width: 38%;
+}
+
+@media only screen and (max-width: 992px) {
+  .list-nft-sale-form {
+    width: 90%;
+  }
+}
+
+.list-nft-sale-form-input-label {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.sale-form-input-option-selected {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.sale-form-input-option {
+  width: 20px;
+  height: 20px;
+}
+
+.sale-form-input-section {
+  width: 100%;
+  height: 47px;
+  border-radius: 10px;
+}
+
+.sale-form-input-tokenId {
+  padding: 0%;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+.summary-line {
+  width: 50%;
+  height: 1px;
+}
+
+.summary-text {
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.list-nft-sale-form-button {
+  color: #ffffff;
+  background: #d72b30;
+  box-shadow: 0px 3px 10px rgba(215, 43, 48, 0.7);
+  border-radius: 6px;
+  border: 0px;
+  width: 100%;
+  height: 40px;
+}
+
+.sale-form-input-listingPrice {
+  background-color: transparent;
+  width: 90%;
+  padding-left: 10%;
+  height: 100%;
+  border: none;
+}
+
+.sale-form-input-listingPrice:focus {
+  outline: none;
+}
+
+.purchasedSuccessModel-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: gray;
+}
+
+.purchasedSuccessModel-message {
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+}
+
+/* specific to dark */
+.background-dark .list-nft-sale-form {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 35, 62, 0.25) 5.26%,
+    rgba(85, 47, 188, 0.25) 100%
+  );
+}
+
+.background-dark .list-nft-sale-form-input-label {
+  color: #ffffff;
+}
+
+.background-dark .sale-form-input-option-selected {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.background-dark .sale-form-input-option-selected-true {
+  color: #ffffff;
+}
+
+.background-dark .sale-form-input-section {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 35, 62, 0.25) 5.26%,
+    rgba(85, 47, 188, 0.25) 100%
+  );
+}
+
+.background-dark .sale-form-input-tokenId {
+  background-color: #312386;
+  color: #ffffff;
+}
+
+.background-dark .summary-line {
+  background-color: #ffffff;
+}
+
+.background-dark .summary-text {
+  color: #ffffff;
+}
+
+.background-dark .sale-form-input-listingPrice {
+  color: #ffffff;
+}

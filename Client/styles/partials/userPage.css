@@ -1,0 +1,214 @@
+.user-data-label {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.user-data-value {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.user-section-background-container {
+  position: relative;
+  background-color: transparent;
+}
+
+.user-section-background {
+  position: relative;
+  background-image: url("../../public/assets/UserSectionBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.user-data-section {
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.user-category-name {
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mynfts-section-header {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.mynfts-section-category-select {
+  background-color: transparent;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.mynfts-select-category-section {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .mynfts-select-category-section {
+    overflow: scroll;
+  }
+}
+
+.nfts-search-by-name {
+  width: 209px;
+  height: 34px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.nfts-search-by-name:focus {
+  outline: none;
+}
+
+.nfts-search-by-price {
+  width: 209px;
+  height: 34px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.nfts-filter-sidebar-nft-type {
+  width: 300px;
+  height: 50px;
+  border-radius: 7px;
+}
+
+.nfts-filter-sidebar-nft-type option {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 35, 62, 0.25) 5.26%,
+    rgba(85, 47, 188, 0.25) 100%
+  );
+  height: 30px;
+}
+
+.my-nfts-no-nfts-in-wallet {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.update-user-name-input {
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+  width: var(--input-width);
+}
+
+.update-user-name-input:focus,
+.update-user-name-input:hover {
+  outline: none;
+}
+
+.user-section-user-image-container {
+  position: relative;
+  background-color: transparent;
+}
+
+.user-section-user-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  border-radius: 50%;
+  margin: auto;
+  color: #ffffff;
+}
+
+/* specific to dark */
+.background-dark .user-category-name {
+  color: #ffffff;
+}
+
+.background-dark .mynfts-section-header {
+  color: #ffffff;
+}
+
+.background-dark .mynfts-section-category-select {
+  color: #ffffff;
+}
+
+.background-dark .mynfts-selected-highlight {
+  background-color: #5955a3;
+}
+
+.background-dark .nfts-search-by-name {
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  color: aliceblue;
+}
+
+.background-dark .nfts-search-by-price {
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  color: aliceblue;
+}
+
+.background-dark .nfts-search-by-price option {
+  background-color: #06041f;
+}
+
+.background-dark .nfts-filter-sidebar-nft-type {
+  color: aliceblue;
+  background: linear-gradient(
+    90deg,
+    rgba(34, 35, 62, 0.25) 5.26%,
+    rgba(85, 47, 188, 0.25) 100%
+  );
+}
+
+/* specific to light */
+.background-light .user-category-name {
+  color: #284596;
+}
+
+.background-light .mynfts-section-header {
+  color: #284596;
+}
+
+.background-light .mynfts-section-category-select {
+  color: rgba(2, 0, 0, 0.6);
+}
+
+.background-light .mynfts-selected-highlight {
+  color: #ffffff;
+  background-color: #284596;
+}
+
+.background-light .nfts-search-by-name {
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  color: rgba(2, 0, 0, 0.6);
+}
+
+.background-light .nfts-search-by-price {
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  color: rgba(2, 0, 0, 0.6);
+}
+
+.background-light.nfts-search-by-price option {
+  background-color: transparent;
+}
+
+.background-light .nfts-filter-sidebar-nft-type {
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  color: rgba(2, 0, 0, 0.6);
+  background: #ffffff;
+}

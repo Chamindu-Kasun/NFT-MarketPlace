@@ -1,0 +1,37 @@
+.footer-text-welcome {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.footer-text-codimite {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+/* spacific to dark */
+.background-dark .footer-text-welcome {
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.background-dark .footer-text-codimite {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.background-dark .footer-bottom-section {
+  background: rgba(217, 217, 217, 0.05);
+}
+
+/* spacific to light */
+.background-light .footer-text-welcome {
+  color: rgba(0, 0, 0, 0.58);
+}
+
+.background-light .footer-text-codimite {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.background-light .footer-bottom-section {
+  background: rgba(221, 221, 221, 0.53);
+}

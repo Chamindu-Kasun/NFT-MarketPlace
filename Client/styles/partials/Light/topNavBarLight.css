@@ -1,0 +1,12 @@
+/* specific to light */
+.background-light .topnavbar-input-section {
+  border: 2px solid rgba(54, 53, 53, 0.4);
+}
+
+.background-light .topnavbar-label {
+  color: #434343;
+}
+
+.background-light .topnavbar-input {
+  color: #434343;
+}

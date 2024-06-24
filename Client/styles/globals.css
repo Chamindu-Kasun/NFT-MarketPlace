@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.background-light {
+  background-color: rgba(255, 255, 255, 0.77);
+  min-height: 100vh;
+}
+
+.background-dark {
+  background-color: #06041f;
+
+  min-height: 100vh;
+}
+
+@import "./partials/Dark/topNavBarDark.css";
+@import "./partials/Light/topNavBarLight.css";
+@import "./partials/userPage.css";
+@import "./partials/Dark/homePageDark.css";
+@import "./partials/Light/homePageLight.css";
+@import "./partials/Dark/footerDark.css";
+@import "./partials/Dark/topChiknsForSaleDark.css";
+@import "./partials/Dark/topSearchesForWeekDark.css";
+@import "./partials/Dark/weeksFavoritesDark.css";
+@import "./partials/Light/weeksFavoriteLight.css";
+@import "./partials/Dark/myNFTsDark.css";
+@import "./partials/Dark/listNFTForSaleDark.css";
+@import "./partials/Dark/cartDark.css";
+@import "./partials/Dark/buyNFTDark.css";
+@import "./partials/Dark/exploreDark.css";
